@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2nd Page</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url("image/2nd_page_bg.png"); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
+
+    .container {
+      position: relative;
+      width: 400px;
+      height: 400px;
+    }
+
+    /* Medal Icon */
+    .icon-medal {
+      position: absolute;
+      top: 50%;
+      left: 35%;
+      transform: translate(-50%, -50%);
+      width: 200px; 
+      z-index: 2; 
+      transition: transform 0.3s ease;
+    }
+
+    .icon-medal:hover {
+      transform: translate(-50%, -50%) scale(1.3); 
+    }
+
+    /* Flame Icon */
+    .icon-flame {
+      position: absolute;
+      top:25%; 
+      left: 65%; 
+      transform: translate(-50%, -50%);
+      width: 160px; 
+      transition: transform 0.3s ease;
+    }
+
+    .icon-flame:hover {
+      transform: translate(-50%, -50%) scale(1.3); 
+    }
+
+    .icon-uniform {
+      position: absolute;
+      top: 50%;
+      left: 65%; 
+      transform: translate(-50%, -50%);
+      width: 240px; 
+      z-index: 1; 
+      transition: transform 0.3s ease;
+    }
+
+    .icon-uniform:hover {
+      transform: translate(-50%, -50%) scale(1.3); 
+    }
+    footer{
+      position: fixed;
+      bottom: 0px;
+      font-size: smaller;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Medal Icon -->
+    <a href="대회소개.html">
+      <img src="image/medal copy.svg" alt="Medal Icon" class="icon-medal">
+    </a>
+
+    <!-- Flame Icon -->
+    <a href="https://forms.gle/gu9g65i2F4jm2wfs7">
+      <img src="image/flame.svg" alt="Flame Icon" class="icon-flame">
+    </a>
+
+    <!-- Uniform Icon -->
+    <a href="동아리소개.html">
+      <img src="image/uniform copy-1.png" alt="Uniform Icon" class="icon-uniform">
+    </a>
+  </div>
+  <footer>
+    <p>&copy; 2024 T.A.P sogang x ewha. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

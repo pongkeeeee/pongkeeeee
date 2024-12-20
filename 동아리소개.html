@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club Introduction</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css">
+  <script>
+    function copyToClipboard() {
+      const contestLink = "https://forms.gle/your-google-form-link"; // Replace with your Google Form URL
+      navigator.clipboard.writeText(contestLink).then(() => {
+        alert("Contest application link copied to clipboard!");
+      }).catch(err => {
+        console.error("Failed to copy: ", err);
+      });
+    }
+  </script>
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'NanumSquare', sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f4f4f4;
+      color: rgb(0, 0, 0);
+      padding: 10px 20px;
+    }
+
+    .navbar-content {
+      text-align: center;
+    }
+
+    .navbar-content h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .navbar-content h3 {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .back img,
+    .insta img {
+      transition: filter 0.3s ease; 
+    }
+
+    .back img:hover,
+    .insta img:hover {
+      filter: brightness(0) saturate(100%) invert(24%) sepia(100%) saturate(7483%) hue-rotate(0deg) brightness(99%) contrast(115%);
+    }
+
+    .intro {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .intro h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .intro p {
+      line-height: 1.6;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      padding: 20px;
+    }
+
+    .row img {
+      width: 100%;
+      aspect-ratio: 1 / 1.4; 
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #7b7979; 
+      color: white;
+    }
+    .star-btn {
+      position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); width: 20px; height: 20px;background-color: gold; 
+      clip-path: polygon(50% 0%,61% 35%,98% 35%,68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); 
+      cursor: pointer; transition: background-color 0.3s ease; z-index: 1000;
+    }
+
+    .star-btn:hover {
+      background-color: red; /* Hover effect turns it red */
+    }
+
+    
+
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    
+    <div class="back">
+      <a href="2nd_page.html">
+        <img src="image/back.png" style="width: 3rem;">
+      </a>
+    </div>
+    <div class="navbar-content">
+        <h1>T.A.P</h1>
+        <h3>SOGANG X EWHA</h3>
+      </div>
+    <div class="insta">
+      <a href="https://www.instagram.com/tap_jiujitsu/">
+        <img src="image/instagram.png" style="width: 3rem;">
+      </a>
+    </div>
+  </div>
+
+  <div class="intro">
+    <h2>Technique Against Power</h2>
+    <p>
+      안녕하세요, 서강x이화 주짓수 동아리 T.A.P입니다.</br>
+      주짓수(BJJ)는 브라질에서 기원한 무예로 남녀노소 누구나 즐길 수 있는 유술이며 관절 꺾기나 조르기 등의 기술을 사용하여 상대를 제압하는 것을 목적으로 합니다.</br>
+      저희 동아리명인 T.A.P는 'Technique Against Power'라는 문구의 약자로, 꾸준한 기술 연마를 통해 자신보다 더 강한 상대를 제압할 수 있다는 것을 모토로 삼고 있습니다.</br>
+      전대주는 대회의 기획부터 운영 및 현장 관리까지 모두 동아리 부원으로 구성된 운영위원회가 진행하고 있습니다. </br>
+      주짓수에 대한 열정으로 더 좋은 대회를 만들기 위해 노력하겠습니다.</br>
+      매년 여름 개최될 예정이니 앞으로도 많은 관심 부탁드립니다.</br>
+    </p>
+  
+  </div>
+
+
+
+  <div class="row">
+    <img src="image/수련사진1.jpg">
+    <img src="image/수련사진2.jpg">
+    <img src="image/수련사진3.jpg">
+    <img src="image/수련사진4.jpg">
+    <img src="image/수련사진4.jpg">
+    <img src="image/수련사진5.jpg">
+    <img src="image/수련사진6.jpg">
+    <img src="image/승급.jpg">
+    <img src="image/승급자들.jpg">
+    <img src="image/백1.jpg">
+    <img src="image/백2.jpg">
+    <img src="image/래쉬가드.jpg">
+    <img src="image/그랄.jpg">
+    <img src="image/전대주포스터.jpg">
+    <img src="image/거울셀카.jpg">
+    <img src="image/인생네컷.jpg">
+    <img src="image/인생네컷2.jpg">
+    <img src="image/전대주메달.jpg">
+    <img src="image/채은언니.jpg">
+    <img src="image/항공샷.jpg">
+    <img src="image/흰도복.jpg">
+  </div>
+
+  <div class="footer">
+    <p>오시는 길: 서강대학교 엠마오관 B118호</p>
+    <p>&copy; 2024 ponkeeee</p>
+  </div>
+
+  <div class="star-btn" onclick="copyToClipboard()"></div>
+
+</body>
+</html>
