@@ -6,7 +6,7 @@ let growing = false; // Flag to control scaling direction
 
 function preload() {
   // Load the logo image (replace 'logo.png' with your image file)
-  logo = loadImage('image/logo.png');
+  logo = loadImage('logo.png');
 }
 
 function setup() {
