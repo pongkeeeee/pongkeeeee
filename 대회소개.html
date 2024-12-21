@@ -17,6 +17,13 @@
   </script>
   
   <style>
+     #contact a div:hover {
+        background-color: red; /* Hover background color */
+        color: white; /* Hover text color */
+        border-color: white; /* Change border color */
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition */
+    }
+
     * {
       margin: 0;
       padding: 0;
@@ -483,10 +490,34 @@
 
   
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p></p>
-  </section>
+  <section id="contact" style="background-color: #222; color: white; text-align: center; padding: 40px;">
+    <h2 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 20px;">CONTACT</h2>
+    <p style="font-style: italic; color: gray; margin-bottom: 20px;">T.A.P Sogang X Ewha Univ</p>
+    <p style="margin-bottom: 30px;">T.A.P 이메일 주소: <a href="mailto:tap.sogangewha@gmail.com" style="color: white; text-decoration: underline;">tap.sogangewha@gmail.com</a></p>
+    <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+        <div style="text-align: center;">
+            <a href="https://instagram.com/tap_insta" target="_blank" style="text-decoration: none;">
+                <div style="border: 2px solid red; padding: 10px 20px; border-radius: 10px; color: white; display: inline-block; transition: all 0.3s;">
+                    T.A.P 인스타그램
+                </div>
+            </a>
+        </div>
+        <div style="text-align: center;">
+            <a href="https://instagram.com/competition_insta" target="_blank" style="text-decoration: none;">
+                <div style="border: 2px solid red; padding: 10px 20px; border-radius: 10px; color: white; display: inline-block; transition: all 0.3s;">
+                    전대주 인스타그램
+                </div>
+            </a>
+        </div>
+        <div style="text-align: center;">
+            <a href="https://youtube.com/competition_youtube" target="_blank" style="text-decoration: none;">
+                <div style="border: 2px solid red; padding: 10px 20px; border-radius: 10px; color: white; display: inline-block; transition: all 0.3s;">
+                    전대주 유튜브
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
 
   <footer>
     <p>© 2024 T.A.P sogang x ewha. All Rights Reserved.</p>
